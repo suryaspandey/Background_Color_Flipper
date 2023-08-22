@@ -1,6 +1,8 @@
 # Random-Background-Color-Flipper
 A small JavaScript project that allows you to change the color of the background randomly whenever clicked. The current background color is displayed in the form of a hex code.
 
+Hosted Link: https://comfy-swan-a72226.netlify.app/
+
 # Demo
 
 ![Demo GIF](https://github.com/suryaspandey/Random-Background-Color-Flipper/blob/main/colorFlipperGIF.gif)
