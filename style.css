@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Galdeano&family=Nunito+Sans:wght@200&family=Oswald:wght@200&family=Permanent+Marker&family=Poppins:wght@300;500;700&family=Roboto+Mono:wght@200&display=swap');
+
+
 /* body{
     background-color: rgb(237, 221, 171);
 } */
@@ -24,4 +28,25 @@
 }
 #btn:hover{
     background-color: rgb(211, 207, 207);
+}
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textcontainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: "Permanent Marker";
+    letter-spacing: 14px;
+    font-size: 44px;
 }
