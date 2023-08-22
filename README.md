@@ -22,7 +22,9 @@ To get started with the project, follow these steps:
 
 2. Open the `index.html` file in your browser to see the project in action.
 
-
+## Technologies Used
+   _HTML, CSS, JavaScript_
+   
 ## Usage
 
 1. Open the project in your browser.
