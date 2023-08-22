@@ -12,7 +12,7 @@ To get started with the project, follow these steps:
 
 1. Clone this repository to your local machine using:
 
-   git clone https://github.com/your-username/random-background-color-changer.git
+   git clone gh repo clone suryaspandey/Random-Background-Color-Flipper
 
 2. Open the `index.html` file in your browser to see the project in action.
 
