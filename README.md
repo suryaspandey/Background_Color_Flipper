@@ -3,7 +3,7 @@ A small JavaScript project that allows you to change the color of the background
 
 # Demo
 
-![Demo GIF](https://example.com/path/to/your/demo.gif)
+![Demo GIF](https://github.com/suryaspandey/Random-Background-Color-Flipper/blob/main/colorFlipperGIF.gif)
 
 ## Features
 
