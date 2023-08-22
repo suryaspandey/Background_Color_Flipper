@@ -2,20 +2,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Galdeano&family=Nunito+Sans:wght@200&family=Oswald:wght@200&family=Permanent+Marker&family=Poppins:wght@300;500;700&family=Roboto+Mono:wght@200&display=swap');
 
 
-/* body{
-    background-color: rgb(237, 221, 171);
-} */
-
-/* #circle{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: red;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-} */
-
 
 #btn{
     font-size: 20px;
@@ -53,7 +39,6 @@ h1{
 }
 
 
-/* CSS */
 .colourbtn {
   padding: 0.6em 2em;
   border: none;

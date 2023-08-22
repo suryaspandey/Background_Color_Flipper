@@ -6,7 +6,8 @@ const btn = document.getElementById("btn");
 const color = document.querySelector('.color')
 
 
-// button click to change the color
+// button click to change the background color
+
 btn.addEventListener('click',function(){
     let r = generateRandomColor();
     // console.log(r);
@@ -20,7 +21,7 @@ btn.addEventListener('click',function(){
 })
 
 
-// sceen click to change the color
+// screen click to change the background color
 
 
 setInterval( document.addEventListener('click',function(){
@@ -39,7 +40,7 @@ const generateRandomColor =  function(){
     return randomColor;
 }
 
-
+// change heading text colours
 
 const colouredHeading = ()=>{
     const textName= "Colour Flipper";
@@ -47,20 +48,21 @@ const colouredHeading = ()=>{
     const headingEle = document.querySelector('.heading');
     let coloredText = '';
 
-    for(let i =0;i<textName.length;i++){
+    for(let i = 0;i < textName.length;i++){
     
         let r = generateRandomColor();
         let g = generateRandomColor(); 
         let b = generateRandomColor();
-    
-        coloredText+= `<span style="color: rgb(${r},${g},${b})">${textName.charAt(i)}</span>`
-        // console.log(coloredText);
 
-        // coloredText.style.color = `rgb(${r},${g},${b})`;
-    }
+        if(r && g && b !== 0){ 
+            coloredText+= `<span style="color: rgb(${r},${g},${b})">${textName.charAt(i)}</span>`
+
+        }
+    
+        }
     headingEle.innerHTML = coloredText;
 
 }
 
-window.addEventListener('load',colouredHeading)
+window.addEventListener('load',colouredHeading);
 
